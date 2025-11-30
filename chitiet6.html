@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tôi đi học</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+
+      /* Nd */
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid black;
+      }
+      img {
+        display: block;
+        margin: 0;
+        width: 200px;
+      }
+      .main-content {
+        display: grid;
+        grid-template-columns: 200px 1fr; /* cột ảnh 200px, cột nội dung chiếm phần còn lại */
+        align-items: center;
+        gap: 20px;
+      }
+
+      /* Nút */
+      button:hover{
+        background-color: cornflowerblue;
+        color: white;
+        border-radius: 5px;
+      }
+      button {
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="trangchu.html">BOOK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="trangchu.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dangki.html">Đăng kí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dangnhap.html">Đăng nhập</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ND -->
+    <main>
+      <h2>Tôi đi học</h2>
+      <div class="main-content">
+        <div class="image-box">
+          <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYRdtRYQbfKvA-vDtgtOxaS81cyC8XSl82jw&s"
+            alt=""
+          />
+        </div>
+        <div class="content-box">
+          <p><strong>Tác giả:</strong> Nguyễn Ngọc Kí</p>
+          <p><strong>Thể loại:</strong> Hồi ký</p>
+          <p><strong>Năm xuất bản:</strong> 1941</p>
+          <p><strong>Giá:</strong> 123.000 VNĐ</p>
+          <button>Thêm vào giỏ hàng</button>
+        </div>
+      </div>
+      <h3>Giới thiệu</h3>
+      <p>
+        Cuốn tự truyện của Nhà giáo Ưu tú Nguyễn Ngọc Ký, ghi lại hành trình
+        vượt lên nghịch cảnh phi thường của ông khi bị liệt cả hai tay nhưng vẫn
+        kiên trì học tập, viết chữ bằng chân. Cuốn sách là một bài học sâu sắc
+        về nghị lực, lòng biết ơn gia đình, thầy cô và truyền cảm hứng cho nhiều
+        thế hệ bạn đọc, nhắc nhở về tầm quan trọng của việc không ngừng học hỏi
+        và không lãng phí tuổi trẻ.
+      </p>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
